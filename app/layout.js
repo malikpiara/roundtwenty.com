@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "RoundTwenty",
   description: "RoundTwenty is a digital product boutique based in Lisboa, London and Berlin. We bring products from idea to success for select partners and host events to nurture our community.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({ children }) {
