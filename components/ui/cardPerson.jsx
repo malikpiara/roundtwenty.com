@@ -19,14 +19,14 @@ export default function CardPerson({
 }) {
   return (
     <>
-      <Card className='w-63 pt-0'>
+      <Card className='w-63 pt-0 group'>
         <CardContent className='text-muted-foreground p-0 m-0'>
           <Image
             src={imageSrc}
             width={500}
             height={500}
             alt={name}
-            className='w-full grayscale opacity-20 hover:opacity-60 transition-all p-2.5'
+            className='w-full grayscale opacity-20 group-hover:opacity-60 transition-all p-2.5'
           />
         </CardContent>
         <CardFooter>

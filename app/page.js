@@ -1,14 +1,10 @@
 import Link from "next/link";
 import {
   Card,
-  CardAction,
-  CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card"
-import CardPerson from "@/components/ui/cardPerson";
+} from "@/components/ui/card";
 import PeopleSection from "@/components/ui/peopleSection";
 
 export default function Home() {
@@ -22,7 +18,7 @@ export default function Home() {
            We're RoundTwenty.
           </h1>
           <p className="max-w-md text-lg leading-8 text-zinc-400">
-            We build products that foster connection, enable education and create more access to opportunities.
+            We build products that foster connection, enable learning and increase access to opportunities.
           </p>
           <div className="w-full space-y-6">
             <section id='communities-section'>
@@ -41,7 +37,7 @@ export default function Home() {
   </Link>
 
    <Link href='https://lisboajs.org/'>
-              <Card className=''>
+              <Card>
   <CardHeader>
     <CardTitle>LisboaJS</CardTitle>
     <CardDescription>For anyone who creates software with or without JavaScript. We host a co-working day every Friday. Beginners are welcome too.</CardDescription>
@@ -49,7 +45,7 @@ export default function Home() {
 </Card>
   </Link>
    <Link href='https://outono.org/'>
-              <Card className=''>
+              <Card>
   <CardHeader>
     <CardTitle>Outono</CardTitle>
     <CardDescription>For Portuguese who live abroad and who work in tech. We host dinners in London and Berlin every month.</CardDescription>
@@ -61,8 +57,8 @@ export default function Home() {
               </section>
               <section id="people-section">
                 <h1 className="max-w-xs text-2xl font-semibold leading-10 tracking-tight text-zinc-50 mb-5">
-           People
-          </h1>
+                  People
+                </h1>
           <PeopleSection/>
               </section>
           </div>
