@@ -10,10 +10,10 @@ import PeopleSection from "@/components/ui/peopleSection";
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center font-sans bg-[#111110]">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 sm:items-start">
+      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-24 px-16 sm:items-start">
 
 
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
+        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left w-full">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-zinc-50">
            We're RoundTwenty.
           </h1>
@@ -23,9 +23,9 @@ export default function Home() {
           <div className="w-full space-y-6">
             <section id='communities-section'>
             <h1 className="max-w-xs text-2xl font-semibold leading-10 tracking-tight text-zinc-50 mb-5">
-           Our Communities
+           Community Initiatives
           </h1>
-          <div className="flex gap-3 flex-col leading-12 w-full">
+          <div className="flex gap-3 flex-col leading-12 w-[85%]">
 
               <Link href='https://lisboaux.com/'>
               <Card>
@@ -48,7 +48,7 @@ export default function Home() {
               <Card>
   <CardHeader>
     <CardTitle>Outono</CardTitle>
-    <CardDescription>For Portuguese who live abroad and who work in tech. We host dinners in London and Berlin every month.</CardDescription>
+    <CardDescription>For Portuguese who live abroad and who work in tech. We host dinners in London, Berlin and Zurich every month.</CardDescription>
   </CardHeader>
 </Card>
   </Link>
