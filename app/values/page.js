@@ -40,9 +40,6 @@ export default function ValuesPage() {
           <p className="max-w-lg text-lg leading-8 text-zinc-400">
             8. Think and build for long-term. Build long-term relationships.
           </p>
-          <p className="max-w-lg text-lg leading-8 text-zinc-400">
-            9. Social impact.
-          </p>
           </section>
 
           </div>
